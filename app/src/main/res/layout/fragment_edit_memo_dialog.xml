@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!-- メモを編集するためのレイアウト -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/edit"
+        android:text="@string/edit_memo_dialog_label"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:maxHeight="300dp"
+        android:minLines="3"
+        android:scrollbars="vertical"
+        tools:ignore="LabelFor,UnusedAttribute" />
+</LinearLayout>

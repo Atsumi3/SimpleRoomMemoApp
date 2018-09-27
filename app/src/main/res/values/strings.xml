@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpleRoomMemoApp</string>
+    <string name="edit_memo_dialog_label">メモの内容</string>
+    <string name="item_memo_content_delete_description">memo delete</string>
+</resources>
